@@ -1,0 +1,5 @@
+{
+  "name": "Finsights",
+  "description": "An AI-powered dashboard that generates real-time stock analysis for the Indian markets (NSE & BSE), designed to teach beginners financial and technical concepts.",
+  "requestFramePermissions": []
+}

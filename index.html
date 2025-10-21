@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finsights</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+      body {
+        background-color: #0d1117;
+        color: #c9d1d9;
+      }
+      .prose table {
+        width: 100%;
+      }
+      .prose thead {
+        background-color: #374151;
+      }
+      .prose th {
+        padding: 0.5rem 1rem;
+      }
+      .prose td {
+        padding: 0.5rem 1rem;
+      }
+      .prose tbody tr:nth-child(odd) {
+        background-color: #1f2937;
+      }
+      .prose tbody tr:nth-child(even) {
+        background-color: #374151;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
+    "chart.js": "https://aistudiocdn.com/chart.js@^4.4.3",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
